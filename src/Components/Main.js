@@ -11,7 +11,7 @@ const Main = ({ people }) => {
   
       function handleChange (event){
           setPhoto(event.target.value)
-          setPhoto(" ");
+          
       }
       function handleSubmit (e){
           console.log(photo)
