@@ -29,6 +29,7 @@ const Main = ({ people }) => {
           .catch(function(err) {
             alert("Invalid word");
           });
+           setPhoto("")
       }
 
     return ( 
